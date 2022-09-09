@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%    ;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(54,77,204);
+    background: linear-gradient(191deg, rgba(54,77,204,1) 33%, rgba(27,43,131,1) 100%);
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive ;
+    font-weight: 80;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+    
+    
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+ /* justify-content: center; Só funciona no flex*/
+    justify-content: space-around ;/* justifica  as box-flex */
+    list-style: none;
+    margin: 20px 0;
+
+
+}
+
+.social img {
+    width: 33px;
+}
+.links-list {
+    list-style: none;
+}
+.links-list li {
+    margin: 10px 20px;
+    
+}
+
+
+.links-list li a {
+    background: white;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bold;
+    box-shadow: 0 0 20px white;
+    border: 3px solid white;
+}
+
+.links-list li a span {
+    color: grey;
+    display: block; /* Elemento inline não consegue usar o margin*/
+    margin-top:10px ;
+}
+
+.sub-links-list {
+    list-style: none;
+
+}
+
+.sub-links-list li {
+    margin: 10px 20px
+}
+
+.sub-links-list li a {
+    text-decoration: none;
+    background: white;
+    display: block;
+    padding: 15px 20px;
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
+    border-radius: 6xpx;
+
+}
+.sub-links-list li a span {
+    display: block;
+    color: grey;
+    margin-top: 10px;
+}
+
